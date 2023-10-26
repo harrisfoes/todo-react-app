@@ -10,6 +10,7 @@ const TaskForm = ({ submit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     submit(newTask);
+    setNewTask("");
   };
 
   return (
